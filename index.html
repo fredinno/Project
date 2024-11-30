@@ -1,0 +1,60 @@
+<!--
+author: Jun Youl Kim
+date: 11/25/2024
+student#: A01254007
+************************
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Dice Game</title>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <h1 class="title_text">Project - Dice Game</h1>
+        <br>
+        <section id="button_section_wrapper">
+            <div>
+                <img src="./img/dieTile001.png" alt="dieTile001">
+                <img src="./img/dieTile002.png" alt="dieTile002">
+                <img src="./img/dieTile003.png" alt="dieTile003">
+                <img src="./img/dieTile004.png" alt="dieTile004">
+                <img src="./img/dieTile005.png" alt="dieTile005">
+                <img src="./img/dieTile006.png" alt="dieTile006">
+            </div>
+            <p><b>Roll a die!</b></p> <p>You and the computer will roll a dice will roll 3 times. <br>Whomever gets the highest score wins.</p>
+            <input type="button" id="dice_button" value="Roll the die!">
+        </section>
+        <div id="score_section_wrapper">
+            <section class="score_section" id="player_score_text">
+                <p>You Rolled: </p>
+                <p>Your Score: </p>
+                <p><b>Your Total Score: </b></p>
+            </section>
+            <section class="score_section" id="comp_score_text">
+                <p>Computer Rolled: </p>
+                <p>Computer's Score: </p>
+                <p><b>Computer's Total Score: </b></p>
+            </section>
+        </div>
+        <section id="end_message_section">
+            <p id="end_message"></p>
+            <input type="button" id="new_game_button" value="Start a New Game">
+        </section>
+        
+        <footer>
+            
+        </footer>
+    </div>
+</body>
+</html>
