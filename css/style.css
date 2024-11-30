@@ -71,9 +71,12 @@ footer {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 50%;
-  border-width: 2px;
-  background-color: rgb(224, 224, 224);
+  min-width: 50%;
+  max-width: 75%;
+  border-width: 3px;
+  border-radius: 3px;
+  background-color: rgb(255, 156, 145);
+  padding: 15px;
 }
 
 .score_section {
@@ -102,6 +105,7 @@ footer {
   top: 25%;
   z-index: 2;
   background-color: gold;
+  box-shadow: 5px 5px;
 }
 
 #dice_button {
@@ -113,8 +117,8 @@ footer {
   text-align: center;
   display: block;
   width: 65%;
+  border-width: 2px;
   background-color: white;
-  box-shadow: 5px 5px;
 }
 
 #score_section_wrapper {

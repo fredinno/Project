@@ -75,9 +75,12 @@ footer {
     text-align: center;
     margin-top: $default_spacing * 2;
     margin-bottom: $default_spacing * 2;
-    width: 50%;
-    border-width: 2px;
-    background-color: rgb(224, 224, 224);
+    min-width: 50%;
+    max-width: 75%;
+    border-width: 3px;
+    border-radius: 3px;
+    background-color:rgb(255, 156, 145);
+    padding: $default_spacing * 3;
 }
 
 .score_section {
@@ -98,6 +101,7 @@ footer {
     top: 25%;
     z-index: 2;
     background-color: gold;
+    box-shadow: $default_spacing $default_spacing;
 }
 
 #dice_button {
@@ -109,8 +113,8 @@ footer {
     text-align: center;
     display: block;
     width: 65%;
+    border-width: 2px;
     background-color: white;
-    box-shadow: $default_spacing $default_spacing;
 }
 
 #score_section_wrapper {
